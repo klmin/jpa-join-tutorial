@@ -1,4 +1,4 @@
-package com.projectiontutorial.team.projection;
+package com.jpajointutorial.team.projection;
 
 public record TeamRecordProjection(
     Long teamId,

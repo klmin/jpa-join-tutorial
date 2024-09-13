@@ -1,4 +1,4 @@
-package com.projectiontutorial.team.projection;
+package com.jpajointutorial.team.projection;
 
 import java.util.List;
 

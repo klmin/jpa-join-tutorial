@@ -1,7 +1,7 @@
-package com.jpajoin.jpajointutorial.member.entity;
+package com.jpajointutorial.member.entity;
 
 
-import com.projectiontutorial.team.entity.Team;
+import com.jpajointutorial.team.entity.Team;
 import jakarta.persistence.*;
 import lombok.*;
 

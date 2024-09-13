@@ -1,4 +1,4 @@
-package com.projectiontutorial.member.projection;
+package com.jpajointutorial.member.projection;
 
 
 import lombok.Getter;

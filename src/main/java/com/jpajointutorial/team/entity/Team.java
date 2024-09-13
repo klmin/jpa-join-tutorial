@@ -1,8 +1,9 @@
-package com.projectiontutorial.team.entity;
+package com.jpajointutorial.team.entity;
 
-import com.projectiontutorial.member.entity.Member;
+import com.jpajointutorial.member.entity.Member;
 import jakarta.persistence.*;
 import lombok.*;
+import org.hibernate.annotations.BatchSize;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,7 +28,7 @@ public class Team {
 
     @Column
     private Integer teamNum;
-
+    //@BatchSize(size = 10)
     @OneToMany(mappedBy = "team", fetch = FetchType.LAZY)
     @Builder.Default
     private List<Member> members = new ArrayList<>();
